@@ -1,0 +1,143 @@
+.job-item {
+  background-color: #272727;
+  border-radius: 8px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.job-link {
+  text-decoration: none;
+}
+
+.company-and-role-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.company-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.company-and-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-rating {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin: 0px;
+}
+
+.location-type-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-and-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-location-and-type {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 6px;
+  margin-right: 12px;
+}
+
+.package-per-annum {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.separate-line {
+  color: #475569;
+  margin-top: 0px;
+}
+
+.job-description-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.job-description {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item {
+    border-radius: 16px;
+    padding: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .company-logo {
+    height: 70px;
+    width: 70px;
+  }
+  .company-title {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+  .company-rating {
+    font-size: 18px;
+    margin-left: 4px;
+  }
+  .company-and-rating-container {
+    margin-left: 18px;
+  }
+  .location-type-package-container {
+    margin-top: 16px;
+    margin-bottom: 4px;
+  }
+  .job-location-and-type {
+    font-size: 18px;
+    margin-left: 8px;
+    margin-right: 18px;
+  }
+  .package-per-annum {
+    font-size: 18px;
+  }
+  .job-description-heading {
+    font-size: 22px;
+    margin-top: 16px;
+  }
+  .job-description {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

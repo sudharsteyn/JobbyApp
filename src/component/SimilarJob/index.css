@@ -1,0 +1,11 @@
+.similar-job-item {
+  background-color: #272727;
+  border-radius: 8px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 300px;
+  margin-right: 22px;
+  margin-bottom: 18px;
+}
